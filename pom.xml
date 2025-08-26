@@ -113,6 +113,7 @@
                 <configuration>
                     <reportVersion>${allure.version}</reportVersion>
                     <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>
+                    <singleFile>true</singleFile>
                 </configuration>
             </plugin>
             <plugin>
