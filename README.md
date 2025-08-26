@@ -19,3 +19,7 @@ Run `mvn clean test`
 and then `mvn exec:java@generate-test-report`
 
 __OUTPUT:__ The report gets generated at `target/open-test-report.html`.
+
+### Surefire Report
+
+Run `mvn surefire-report:report` to run the tests and generate the report in `target/site/index.html`.
